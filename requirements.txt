@@ -1,0 +1,18 @@
+# Core
+requests
+python-dotenv
+
+# TTS (offline-first)
+pyttsx3
+# gTTS  # optional online fallback
+
+# STT
+vosk>=0.3.45              # Offline speech recognition
+# SpeechRecognition[pyaudio]  # Optional online fallback
+
+# Audio
+pyaudio>=0.2.11           # May need system deps: portaudio19-dev
+
+# Utilities
+pynput                    # Global keybinds (SPACE/ENTER/ESC)
+duckduckgo-search         # No-API web search
